@@ -94,5 +94,6 @@ ENV/
 module/Syncer.py
 module/XPSC8_mover.py
 
+*.log
 
 
