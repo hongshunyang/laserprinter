@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>使用帮助</title>
+<style type="text/css">
+#install,#boot,#init,#main,#register,#open,#shutter,#create,#help,#error,#copyright,#setting {
+	font-size:16px;
+}
+body {
+	background-color: #FFC;
+	font-size:13px;
+	width:590px;
+	line-height:22px;
+}
+body,td,th {
+	color: #333;
+}
+
+</style>
+</head>
+
+<body bgcolor="#ffc">
+
+<table width="580" border="0" style="text-align:center;">
+  <tr>
+    <td rowspan="2"><img src="logo.png" width="145" height="128" alt="logo" /></td>
+    <td height="66"><span style="text-align:center; font-size: 24px;">西南科技大学激光中心实验室 </span></td>
+  </tr>
+  <tr>
+    <td><strong><span style="text-align:center; font-weight: bold; font-size: 27px; color: #F00;">平移台与快门协同软件使用帮助</span></strong></td>
+  </tr>
+</table>
+<table width="580" cellspacing="0" border="1" cellpadding="0" ><tr><td width="100%" >
+
+<p ><a name="list">目录</a><br />
+  一、<a href="#install">安装程序</a><br />
+  二、<a href="#boot">启动程序</a><br />
+  三、<a href="#main">程序主界面</a><br />
+  四、<a href="#register">软件注册</a><br />
+  五、<a href="#setting">系统设置</a><br />
+  六、<a href="#open">打开图像</a><br />
+  七、<a href="#init">平移台的手动控制和系统初始化</a><br />
+  八、<a href="#shutter">快门的控制</a><br />
+  九、<a href="#create">制造—激光刻蚀一张图像</a><br />
+  十、<a href="#help">系统帮助和快捷键</a><br />
+  十一、<a href="#error">系统错误及其处理</a><br />
+十二、<a href="#copyright">软件版权</a></p>
+<p>一、<a name="install" href="#list">安装程序</a><br />
+  &nbsp;&nbsp;&nbsp;&nbsp;本软件的安装和大部分程序的安装一样，通过启动安装文件来进行。您可以在您的软件光盘里找到laserPrinter安装文件，双击就可以了，你将看到安装程序的启动界面,</p>
+<p style="text-align:center;"><img src="install1.png" alt="启动界面" width="292" height="155"  /></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;选择安装过程中使用的语言，点击ok。</p>
+<p style="text-align:center;"><img src="install3.png" width="503" height="362" alt="软件协议" /></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;接受软件协议约定。</p>
+<p style="text-align:center;"><img src="install4.png" width="501" height="360" alt="安装位置" /></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;然后选择您要安装的路径，然后点击下一步开始安装。</p>
+<p style="text-align:center;"><img src="install5.png" width="503" height="360" alt="安装完成" /></p>
+<p><em>Linux或者Unix系统</em>：<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;在linux或者unix系统上，您的软件将是一个.tar.bz2的压缩包，你需要将这个包解压到您喜欢的目录里，然后设置程序启动器。<br />二、<a name="boot" href="#list">启动程序</a><br />
+  &nbsp;&nbsp;&nbsp;&nbsp;程序的启动很容易。如果您使用windows操作系统，这时候您应该可以在您的系统应用程序菜单里看到&quot;LaserPrinter&quot;程序启动项。单击程序启动项，或者双击桌面上的laserPriner快捷方式就可以启动了。<br />
+  &nbsp;&nbsp;&nbsp;<em>&nbsp;对于Linux或者unix系统，您可以选择从系统菜单里通过您设置的启动器来启动，或者在终端程序里输入laserprinter命令。</em><br />
+</p>
+三、<a name="main" href="#list">程序主界面</a><br />
+&nbsp;&nbsp;&nbsp;&nbsp;程序启动之后，您将看到如下的界面：<br />
+<p style="text-align:center;"><img src="mainui.png" width="536" height="606" alt="主界面" /></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;您可以看到，程序主界面上有菜单栏，工具栏，状态栏和应用程序主区域。程序主区域分为四个小区域，分别是图像栏目，信息显示栏目，平移台控制栏目，以及制造栏目。<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;图像栏目将显示你载入的图像。<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;信息显示栏目显示您的图像和系统设置信息。包括图像的原始大小，系统目前的步长，扫描速度，还有实际制造的尺寸以及大致的消耗时间显示。信息的显示会随着您的图像文件和设置来更新。<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;平移台控制栏目包括平移台的系统初始化和对平移台的手动控制以及获取平移台的当前XY坐标。<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;制造栏里包括目前的制造进度，用于启动、暂停、重置制造的控制按钮。<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;状态栏：状态栏里显示程序的一些状态提示，包括发生的错误，系统初始化等信息。<br /></p>
+  四、<a name="register" href="#list">软件注册</a><br />
+&nbsp;&nbsp;&nbsp;&nbsp;软件安装完成之后，首次运行您需要进行注册，在光盘里找到授予您的序列号，然后在程序主界面上执行 &quot;帮助&quot;-- &quot;许可&quot;菜单命令，您将得到下面的注册页面：</p>
+<p style="text-align:center;"><img src="register.png" width="423" height="272" alt="许可管理器" /></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;单击&quot;导入许可&quot;您将得到一个输入栏，按照顺序输入您的软件光盘里的序列号，再单击&quot;添加&quot;按钮即可导入，如果您的序列号是正确的，系统将提示&quot;成功导入序列号！&quot;，下面，单击&quot;应用&quot;按钮即可。<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;再次运行许可管理器，您应该看到已经注册和激活的信息，还有授权给的单位信息。<br /></p>
+  五、<a name="setting" href="#list">系统设置</a><br />
+&nbsp;&nbsp;&nbsp;&nbsp;您可以在程序工具栏或者应用程序菜单里打开系统设置。您可以单击工具栏上的<strong>设置</strong>按钮来打开，或者使用菜单命令： 系统设置—设置 来启动。您将看到下面的界面：</p>
+<p style="text-align:center;"><img src="settingui.png" width="516" height="379" alt="系统设置" /></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;系统设置的界面很简明，分别为平移台参数设置，快门设置和系统语言设置。<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;平移台的设置包括步长，扫描速度，手动移位速度,是否镜像X轴。<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;步长：步长是平移台运行时每一步的移动距离，它实际上代表图片上一个像素在实际制造过程中的大小，单位毫米。
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;扫描速度：扫描速度是在制造过程中平移台扫描图像的速度，这个通常为几百微米每秒，不过您得<strong>注意</strong>：这里的扫描速度是以毫米每秒为单位的。<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手动移位速度：手动移位速度是您在手动控制平移台的时候使用的速度，这个速度不会影响实际制造的扫描速度。手动移位通常是为了满足调试平移台的需要，一般这个速度会比扫描速度大的多，您可能通常应该设置为几十个毫米每米或者更大。<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;<strong>注意：平移台的最大移动速度为300mm/s，所以请不要设置大于这个值的速度，如果大于这个值，平移台会按照300mm/s来实际运行。</strong><br />
+  &nbsp;&nbsp;&nbsp;&nbsp;是否镜像X轴：因为实际使用过程中，激光相对与平移台的前后方向不同，可能您需要对X轴设置镜像，否则您打出来的实际图像就会是镜像过的。如果激光是从正面照到平移台上，则应该设置为不镜像，否则设置为镜像。注意：平移台有线的一端为后面。<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;快门的设置包括两项：快门状态和串口选择。<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;快门设置里有一组单选按钮，可以控制快门的状态。<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;串口选择：快门通过串口跟计算机连接以保持通信，所以<strong>在使用快门之前您应用首先连接快门到您的计算机串口</strong>，计算机串口线是一根9针的连接线，如果您的计算机没有串口，您可能需要准备一个USB转串口来代替。串口线连接好之后，<strong>您需要选择正确的串口序号</strong>(windows为COM1,COM2这样的端口，在linux上面是/dev/ttyS0,/dev/ttyS1等）。选择好串口号之后，<strong>您还需要把快门控制器设置为RS232工作模式</strong>，并且要<strong>确保快门连接到快门控制器的输出1</strong>上面，这时候您可以单击快门的控制按钮来试验打开关闭快门是否正常。<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;语言的设置:<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在语言栏单击语言列表，选择您需要的语言，<strong>然后重新启动软件</strong>就可以了。<br /></p>
+  六、<a name="open" href="#list">打开图像</a><br />
+ &nbsp;&nbsp;&nbsp;&nbsp; 打开图像文件很简单，单击工具栏的打开按钮或者执行 &quot;文件&quot;-- &quot;打开&quot;菜单命令。打开图像后，图像将在图像栏里缩放显示。<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;请<strong>注意：根据您的步长设置和平移台的尺寸限制，您的图片尺寸不应该超过限度。</strong>如果超出范围，laserprinter会弹出一个错误对话框给您以提示，您需要在选择合宜的图片以便继续。<br />
+  七、<a name="init" href="#list">平移台的手动控制和系统初始化</a><br />
+  &nbsp;&nbsp;&nbsp;&nbsp;平移台的手动控制比较灵活。<strong>首先您需要在作任何移动之前初始化平移台</strong>，并且您<strong>需要保证没有其他的程序占用平移台</strong>，这样您可以单击&quot;系统初始化&quot;按钮来初始化平移台系统。平移台初始化成功之后您可以在状态栏里看到类似&quot;XPS-C8已初始化！&quot;的字样。平移台初始化后，您应该可以看到平移台的所有轴都会归位。<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;<strong>注意：如果您看到一个警告平移台初始化的时候发生了一些错误，这个一般是因为平移台上有放置不合适的重物，导致系统发生共振。</strong>这个时候您应该检查您的物件，如果只是发生了共振，但是平移台确实正确归位的话，您可以选择忽略这个警告，点击确定之后可以继续做后续的手动移位和制造操作。<strong>如果有警告发生，而且平移台没有正确归位，那么在做任何后续操作前应该排除这个错
+  误。</strong><br />
+  平移的手动控制：平移台的手动控制有两种方式：单步移位和任意距离移位。<br />
+  在平移台手动控制区域，您可以看到有X和Y轴的输入框，输入框内可以输入您期望移动的位移量，<strong>位移量可以是正值也可以是负值</strong>，正负是相对与系统初始化后的0位置而言的，比如5表示在轴上前移5个<strong>毫米</strong>距离，-5表示往后移动5个<strong>毫米</strong>。在您输入好值之后，只需要点击输入框紧接的&quot;+&quot;按钮就可以移动了。 在&quot;+&quot;按钮的后面可以看到一组按钮&quot;&lt;&quot; &quot;&gt;&quot;，分别表示往前和往后移动一个<strong>毫米</strong>。<br />
+  <P> 注意：如果您是连续几张图片的雕刻，并且希望对于样品的位置每次都是相同的，这时候位于平移台控制栏目里的获取当前XY坐标按钮就可以帮上您的忙了，您可以在第一次载入一张图片后先手动移动平移台，当平移台位置满意后，点击“获取当前XY坐标”按钮，记录这次的XY坐标，下次初始化后只需要输入这个坐标一次移位即可。（坐标是浮点表示的，你可以输入四舍五入后的值或者信息提示的精确表示值，比如坐标提示为X：10.05999006，Y：5.000，那么您可以输入X = 10.06，Y=5）。</a><br /> </p>
+  八、<a name="shutter" href="#list">快门的控制</a><br />
+  &nbsp;&nbsp;&nbsp;&nbsp;快门的控制在系统设置的快门选单里面，单击按钮就可以打开和关闭快门。如果快门没响应，通常是因为串口的连接有问题。<strong>平时，您应该把快门调到关闭状态以免发生危险。</strong><br />
+  九、<a name="create" href="#list">制造—激光刻蚀一张图像</a><br />
+  &nbsp;&nbsp;&nbsp;&nbsp;本软件的主体功能是完成图像的激光雕刻制造过程。下面将介绍如果使用laserprinter来雕刻一张图片。<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;首先，点击打开按钮载入一张实现准备好的图片，打开之后，图像将在软件界面里显示。laserprinter会对您的图片做适当的处理（二值化），二值后的图像保存在系统的temp目录里面，通常您不需要关心图片是如何被二值化的。您只需要载入一长合适大小的图片就行了，laserpriner会自动完成二值处理而不需要任何干预。<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;接着，您需要在系统设置里设置合适的<strong>步长</strong>和<strong>扫描速度</strong>。设置好之后您可以在信息栏目里立马看到制造相关的信息，您可以看到本次制造的实际尺寸大小，还可以看到一个大致估计的制造时间。<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;下面，在制造栏目里单击&quot;运行&quot;按钮，系统就开始扫描您的图片了，您可以通过进度条来了解到 本次的运行进度和快慢。在运行过程中您可以单击&quot;暂停&quot;来暂停运行。<strong>暂停</strong>之后还可以接着按&quot;运行&quot;来继续您暂停掉的工作，系统会在之前的进度之后继续运行，而<strong>不会重新开始</strong>。<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;如果您是想重新开始一个制造过程，请点击&quot;重置&quot;按钮来重新开始您的工作。<strong>重置将会让系统重新从图像最开始位置处运行。</strong><br />
+  &nbsp;&nbsp;&nbsp;&nbsp;制造过程中，laserprinter会自动照看快门的关闭，如果您暂停当前的任务，laserprinter会自动关闭快门以确保安全。<br />
+  十、<a name="help" href="#list">系统帮助和快捷键</a><br />
+  &nbsp;&nbsp;&nbsp;&nbsp;帮助的使用：<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在软件菜单栏里您可以看到帮助菜单：子内容有帮助内容和许可，以及关于。内容是本软件的帮助文档，您可以随时查看以了解软件的使用方法。<br />
+  许可用来管理您的序列号。<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;关于是程序的关于信息显示。<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;快捷键：<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;本软件支持使用键盘快捷键来进行某些操作（不支持windows）。<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ctrl+O用来打开图像文件。<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ctrl+Q退出程序。<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ctrl+H打开帮助文档页面。<br />
+  十一、<a name="error" href="#list">系统错误及其处理</a><br />
+  &nbsp;&nbsp;&nbsp;&nbsp;系统的常见错误及其处理方法：<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. <strong>图像尺寸超出范围</strong>：<br />XPS-C8的移动范围为100mmX30mm，所以您选择的图片大小乘以系统步长之后不应该超过这个值，如果软件提示尺寸超出错误，<strong>请您修该您的图片或者设置合适的步长</strong>。<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <strong>XPS-C8连接错误</strong>：<br />XPS-C8使用网络通讯，如果laserprinter连接不到XPS-C8，就会提示错误，<strong>请您检查您的计算机到平移台控制器的网络连接。</strong><br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <strong>平移台没有初始化</strong>：<br />
+  平移台在做任何移动之前应该先进行系统初始化。<strong>您只需要点击初始化按钮来初始化即可</strong>。<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. <strong>平移台初始化的时候有错误发生</strong>：<br />
+  如果平移台上有重心不对称放置的重物，平移台在移动时可能会因为发生共振而影响移动的位置。<strong>您应该检查您的物件放置，确保不会发生共振</strong>。如果平移台可以正确归位，您可以忽略这个错误。<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. <strong>不能连接到快门或者串口错误</strong>：<br />
+  快门使用串口与计算机连接，不能连接到快门通常是因为串口物理线路或者串口设置不正确。<strong>请选择对应的串口序号和检查串口连接线</strong>。<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.<strong> 输入非法值</strong>：<br />
+  平移台的速度，位移量通常是个整数或者小数，您不能输入字符。<strong>请重新输入合法的数值</strong>。<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7. <strong>系统没有激活</strong>：<br />
+  系统没有激活可能是因为序列号没有导入，您还没有注册软件或者您使用了非法授权的序列号。<strong>请输入授权的合法序列号。</strong><br />
+  十二、<a name="copyright" href="list">软件版权</a><br />
+  &nbsp;&nbsp;&nbsp;&nbsp;laserprinter属于私有软件，本软件为绵阳元升科技有限公司为西南科技大学激光中心实验室开发，版权归两者所共有。任何第三方未经双方书面许可没有权利使用本软件，如有使用属于违法行为，双方将共同追究其相关法律责任。<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;laserprinter使用python和wxpython构建，python和wxpython属于自由软件，绵阳元升科技不拥有这部分软件的所有权。<br />
+
+</td></tr></table>
+</body>
+
+</html>

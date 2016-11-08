@@ -1,0 +1,600 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LaserPrinter Version build.20100617\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-07 12:26+0800\n"
+"PO-Revision-Date: 2010-07-07 12:27+0800\n"
+"Last-Translator: dang <dangbinghoo@gmail.com>\n"
+"Language-Team: YuanSheng Corp.,ltd <dangbinghoo@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: E:\\xps-c8-reference\\laserPrinter-all-final-r09.2\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: wx\n"
+
+#: wx/LicenseManager.py:18
+msgid "License info"
+msgstr "许可信息:"
+
+#: wx/LicenseManager.py:19
+msgid "infotext"
+msgstr ""
+
+#: wx/LicenseManager.py:22
+msgid "ImPort"
+msgstr "导入许可"
+
+#: wx/LicenseManager.py:24
+#: wx/LicenseManager.py:26
+#: wx/LicenseManager.py:28
+#: wx/LicenseManager.py:30
+#: wx/LicenseManager.py:32
+msgid "-"
+msgstr ""
+
+#: wx/LicenseManager.py:35
+msgid "Add"
+msgstr "添加"
+
+#: wx/LicenseManager.py:36
+msgid "Cancel"
+msgstr "取消"
+
+#: wx/LicenseManager.py:37
+msgid "Apply"
+msgstr "应用"
+
+#: wx/LicenseManager.py:43
+msgid "Yuansheng Corp.,ltd"
+msgstr "元升科技有限公司"
+
+#: wx/LicenseManager.py:44
+msgid "Laser Center of SS.SWUST"
+msgstr "西南科技大学激光中心"
+
+#: wx/LicenseManager.py:76
+msgid "License Manager"
+msgstr "许可管理器"
+
+#: wx/LicenseManager.py:161
+msgid "Imported key successfully!"
+msgstr "成功导入序列号！"
+
+#: wx/LicenseManager.py:161
+#: wx/LPFrame.py:757
+msgid "Message"
+msgstr "信息"
+
+#: wx/LicenseManager.py:165
+msgid "Invalid key!"
+msgstr "您输入的是非法的序列号！"
+
+#: wx/LicenseManager.py:165
+#: wx/prefer.py:168
+#: wx/prefer.py:179
+msgid "Error"
+msgstr "错误"
+
+#: wx/LicenseManager.py:224
+msgid "reimport"
+msgstr "重新导入"
+
+#: wx/LicenseManager.py:233
+msgid "<Not imported yet!>"
+msgstr "<未导入许可序列号！>"
+
+#: wx/LicenseManager.py:238
+msgid "Active"
+msgstr "已激活。"
+
+#: wx/LicenseManager.py:240
+msgid "inActive!"
+msgstr "系统没有激活！"
+
+#: wx/LicenseManager.py:244
+msgid "None user"
+msgstr "未知用户"
+
+#: wx/LicenseManager.py:245
+#, python-format
+msgid ""
+"\n"
+" Registered with: %s\n"
+"\n"
+" Lincensed to: \n"
+"\t%s\n"
+"\n"
+"  Status: %s"
+msgstr ""
+"\n"
+"   已经使用序列号 %s 注册.\n"
+"\n"
+"   本软件已由绵阳元升科技有限公司授权给: \n"
+"\t%s   使用\n"
+"\n"
+"   状态: %s"
+
+#: wx/LicenseManager.py:248
+#, python-format
+msgid "Current key:%s"
+msgstr "当前序列号：%s"
+
+#: wx/misc.py:15
+msgid "hour"
+msgstr "小时"
+
+#: wx/misc.py:16
+msgid "minute"
+msgstr "分钟"
+
+#: wx/misc.py:17
+msgid "seconds"
+msgstr "秒"
+
+#: wx/prefer.py:19
+msgid "Shutter settings"
+msgstr "快门设置"
+
+#: wx/prefer.py:20
+#: wx/prefer.py:119
+msgid "Language"
+msgstr "语言"
+
+#: wx/prefer.py:21
+msgid "Mover Prameters"
+msgstr "平移台参数"
+
+#: wx/prefer.py:22
+msgid "Step length(mm):"
+msgstr "步长(毫米):"
+
+#: wx/prefer.py:24
+msgid "Scanning Velocity:"
+msgstr "扫描速度(mm/s):"
+
+#: wx/prefer.py:26
+msgid "Manual Velocity:"
+msgstr "手动移位速度(mm/s):"
+
+#: wx/prefer.py:28
+msgid "Whether mirror X"
+msgstr "X轴是否镜像:"
+
+#: wx/prefer.py:28
+msgid "No"
+msgstr "否"
+
+#: wx/prefer.py:28
+msgid "Yes"
+msgstr "是"
+
+#: wx/prefer.py:29
+msgid "COM port:"
+msgstr "串口选择:"
+
+#: wx/prefer.py:30
+msgid "COM1"
+msgstr ""
+
+#: wx/prefer.py:30
+msgid "COM2"
+msgstr ""
+
+#: wx/prefer.py:30
+msgid "/dev/ttyS0"
+msgstr ""
+
+#: wx/prefer.py:30
+msgid "/dev/ttyS1"
+msgstr ""
+
+#: wx/prefer.py:31
+msgid "Shutter Manual Control"
+msgstr "快门手动控制"
+
+#: wx/prefer.py:31
+#: wx/LPFrame.py:111
+msgid "Open"
+msgstr "打开"
+
+#: wx/prefer.py:31
+msgid "Close"
+msgstr "关闭"
+
+#: wx/prefer.py:32
+msgid "English"
+msgstr "English"
+
+#: wx/prefer.py:32
+msgid "Chinese"
+msgstr "简体中文"
+
+#: wx/prefer.py:33
+msgid "&Cancel"
+msgstr "取消(&C)"
+
+#: wx/prefer.py:34
+#: wx/LPFrame.py:39
+msgid "&OK"
+msgstr "确定(&O)"
+
+#: wx/prefer.py:55
+msgid "Preferences"
+msgstr "系统设置"
+
+#: wx/prefer.py:117
+msgid "Mover"
+msgstr "平移台"
+
+#: wx/prefer.py:118
+msgid "Shutter"
+msgstr "快门"
+
+#: wx/prefer.py:137
+msgid "Can not open comport, Please check!"
+msgstr "不能打开串口，请检查！"
+
+#: wx/prefer.py:137
+#: wx/prefer.py:141
+#: wx/LPFrame.py:288
+msgid "Error!"
+msgstr "错误!"
+
+#: wx/prefer.py:141
+msgid "Comport read/write error!"
+msgstr "串口读写错误！"
+
+#: wx/prefer.py:168
+msgid "Error: the velocity will never big than 300mm/s,please re input!"
+msgstr "错误：速度值应该是小于300mm/s的，请您重新输入！"
+
+#: wx/prefer.py:178
+#: wx/LPFrame.py:543
+#: wx/LPFrame.py:567
+msgid "Error: input is not valid value"
+msgstr "错误: 您的输入值是非法的！"
+
+#: wx/LPFrame.py:61
+#: wx/LPFrame.py:509
+#: wx/LPFrame.py:586
+msgid "Info"
+msgstr "信息"
+
+#: wx/LPFrame.py:62
+msgid "Mover Control"
+msgstr "平移台控制"
+
+#: wx/LPFrame.py:63
+msgid "Manufacture"
+msgstr "制造"
+
+#: wx/LPFrame.py:64
+msgid "Picture"
+msgstr "图像"
+
+#: wx/LPFrame.py:85
+msgid "&Open picture"
+msgstr "打开图片(&O)"
+
+#: wx/LPFrame.py:85
+msgid "Open picture file"
+msgstr "打开图片文件"
+
+#: wx/LPFrame.py:88
+msgid "E&xit"
+msgstr "退出(&x)"
+
+#: wx/LPFrame.py:88
+#: wx/LPFrame.py:115
+msgid "Quit"
+msgstr "退出"
+
+#: wx/LPFrame.py:90
+msgid "&File"
+msgstr "文件(&F)"
+
+#: wx/LPFrame.py:92
+msgid "&Setup"
+msgstr "设置(&S)"
+
+#: wx/LPFrame.py:92
+msgid "System Setup"
+msgstr "系统设置"
+
+#: wx/LPFrame.py:94
+msgid "&Preferences"
+msgstr "系统设置(&P)"
+
+#: wx/LPFrame.py:96
+msgid "&Contents"
+msgstr "内容(&C)"
+
+#: wx/LPFrame.py:96
+#: wx/LPFrame.py:461
+msgid "Help contents"
+msgstr "帮助内容"
+
+#: wx/LPFrame.py:99
+msgid "License"
+msgstr "许可"
+
+#: wx/LPFrame.py:99
+msgid "License Management"
+msgstr "许可管理"
+
+#: wx/LPFrame.py:101
+msgid "A&bout"
+msgstr "关于(&A)"
+
+#: wx/LPFrame.py:101
+#: wx/LPFrame.py:466
+msgid "About the program"
+msgstr "关于程序"
+
+#: wx/LPFrame.py:103
+msgid "&Help"
+msgstr "帮助(&H)"
+
+#: wx/LPFrame.py:111
+msgid "Open picture"
+msgstr "打开图像"
+
+#: wx/LPFrame.py:111
+msgid "Open picture file for made"
+msgstr "打开需要制造的图像"
+
+#: wx/LPFrame.py:113
+msgid "Setup"
+msgstr "设置"
+
+#: wx/LPFrame.py:113
+msgid "System setup"
+msgstr "系统设置"
+
+#: wx/LPFrame.py:113
+msgid "System setup for various parameters"
+msgstr "设置各种系统参数"
+
+#: wx/LPFrame.py:115
+msgid "Quit the programe"
+msgstr "退出程序"
+
+#: wx/LPFrame.py:118
+msgid "Picture info:"
+msgstr "图像信息:"
+
+#: wx/LPFrame.py:121
+msgid "system info"
+msgstr "当前信息:"
+
+#: wx/LPFrame.py:123
+#: wx/LPFrame.py:499
+#: wx/LPFrame.py:504
+#: wx/LPFrame.py:514
+msgid "Initialize"
+msgstr "系统初始化"
+
+#: wx/LPFrame.py:125
+msgid "Manual Control"
+msgstr "手动控制"
+
+#: wx/LPFrame.py:126
+msgid "axisX:"
+msgstr "X轴:"
+
+#: wx/LPFrame.py:128
+#: wx/LPFrame.py:133
+msgid "+"
+msgstr "+"
+
+#: wx/LPFrame.py:129
+#: wx/LPFrame.py:134
+msgid "<"
+msgstr "<"
+
+#: wx/LPFrame.py:130
+#: wx/LPFrame.py:135
+msgid ">"
+msgstr ">"
+
+#: wx/LPFrame.py:131
+msgid "axisY:"
+msgstr "Y轴:"
+
+#: wx/LPFrame.py:136
+#: wx/LPFrame.py:598
+msgid "Progress:"
+msgstr "系统进度:"
+
+#: wx/LPFrame.py:138
+#: wx/LPFrame.py:604
+msgid "Manualfacture"
+msgstr "运行"
+
+#: wx/LPFrame.py:139
+msgid "Reset"
+msgstr "重置"
+
+#: wx/LPFrame.py:140
+msgid "GetPosition"
+msgstr "获取当前XY坐标"
+
+#: wx/LPFrame.py:204
+msgid "Laser printer of SWUST"
+msgstr "西南科技大学激光中心电控平移台与快门协同软件"
+
+#: wx/LPFrame.py:208
+msgid "LPframe_statusbar"
+msgstr "状态栏"
+
+#: wx/LPFrame.py:295
+msgid "Open  picture file"
+msgstr "打开图像文件"
+
+#: wx/LPFrame.py:315
+#, python-format
+msgid "Error: Your picture should nerver biger than %s by %s pixel accroding to the current system step length and mover limits!"
+msgstr "错误：根据平移台的最大移动尺寸和当前步长设置，您的图片不能超过%s x %s像素！"
+
+#: wx/LPFrame.py:371
+msgid "Width(in pixel):"
+msgstr "宽(像素):"
+
+#: wx/LPFrame.py:372
+msgid "Height(in pixel):"
+msgstr "高(像素):"
+
+#: wx/LPFrame.py:377
+msgid " <Picture not loaded in.>"
+msgstr "<没有载入图片>"
+
+#: wx/LPFrame.py:387
+msgid "Warning: Your scaning velocity is too big according to the current steplength,You may get the wrong time about processing!"
+msgstr "警告：您设置的速度相对于系统设置的步长来说太大了！系统运行时间将不准确，通常情况下速度不能太大。"
+
+#: wx/LPFrame.py:388
+msgid "Warning"
+msgstr "警告"
+
+#: wx/LPFrame.py:419
+msgid "sys stepLength(mm):"
+msgstr "步长(毫米):"
+
+#: wx/LPFrame.py:420
+msgid "Real width(mm):"
+msgstr "实际宽度(毫米):"
+
+#: wx/LPFrame.py:421
+msgid "Real height(mm):"
+msgstr "实际高度(毫米):"
+
+#: wx/LPFrame.py:422
+msgid "Current velocity(mm/s):"
+msgstr "当前速度(mm/s):"
+
+#: wx/LPFrame.py:423
+msgid "About time:"
+msgstr "大致需要时间:"
+
+#: wx/LPFrame.py:424
+msgid "whether X axis:"
+msgstr "X轴是否镜像:"
+
+#: wx/LPFrame.py:427
+msgid "mirror"
+msgstr "镜像"
+
+#: wx/LPFrame.py:429
+msgid "normal"
+msgstr "未镜像"
+
+#: wx/LPFrame.py:440
+msgid "Error: step Length value is not valid!"
+msgstr "错误：步长值是非法的！"
+
+#: wx/LPFrame.py:450
+msgid "Error occured when shutting down shutter!"
+msgstr "关闭快门时发生错误！"
+
+#: wx/LPFrame.py:490
+msgid "Try to init XPS-C8 motion controller..."
+msgstr " 正在初始化XPS-C8运动控制器"
+
+#: wx/LPFrame.py:491
+msgid "initializing"
+msgstr "系统正在初始化..."
+
+#: wx/LPFrame.py:498
+msgid "Error: Can not connect to XPS-C8!"
+msgstr "错误：连接XPS-C8失败，请检查到XPS-C8的网络连接."
+
+#: wx/LPFrame.py:503
+msgid "Warning: error occured while initializing XPS-C8!"
+msgstr "警告：初始化XPS-C8的时候有错误发生，不过你可以选择继续，建议重新初始化，初始化错误可能是因为发生了共振。"
+
+#: wx/LPFrame.py:509
+msgid "XPS-C8 init success!"
+msgstr "XPS-C8已成功初始化！"
+
+#: wx/LPFrame.py:513
+msgid "XPS-C8 initialized!"
+msgstr "XPS-C8已初始化."
+
+#: wx/LPFrame.py:521
+#: wx/LPFrame.py:589
+msgid "Error:Mover not initialized!"
+msgstr "错误：平移台没有初始化！"
+
+#: wx/LPFrame.py:585
+msgid "Current position:"
+msgstr "当前坐标值："
+
+#: wx/LPFrame.py:609
+msgid "System not actived yet, please check your license!"
+msgstr "系统还未注册激活，请检查您的序列号是否正确！"
+
+#: wx/LPFrame.py:628
+msgid "Pulse"
+msgstr "暂停"
+
+#: wx/LPFrame.py:634
+msgid "Error:system not initialized!"
+msgstr "错误：系统没有初始化！"
+
+#: wx/LPFrame.py:640
+#: wx/LPFrame.py:654
+msgid "Can not connect shutter,please check you comport connection!"
+msgstr "不能连接快门，请检查您的串口连接！"
+
+#: wx/LPFrame.py:646
+msgid "You need to load a picture before manualfacturing!"
+msgstr "您在制造之前需要载入一张图片！"
+
+#: wx/LPFrame.py:698
+#, python-format
+msgid "Error accured while moving,Please check the mover, you may reinit the mover before you make any futher action! Error Code: %d"
+msgstr "平移台移动发生错误，请检查平移台，您可能需要重新初始化平移台! 错误代码: %d"
+
+#: wx/LPFrame.py:705
+msgid "Error accured while closing shutter!"
+msgstr "关闭快门时发生错误!"
+
+#: wx/LPFrame.py:755
+msgid "Worked for:"
+msgstr "实际工作时间："
+
+#~ msgid ""
+#~ "\n"
+#~ "\tError Code: %d"
+#~ msgstr ""
+#~ "\n"
+#~ "\t错误代码: %d"
+
+#, fuzzy
+#~ msgid "initialize"
+#~ msgstr "系统初始化"
+
+#~ msgid "Stop"
+#~ msgstr "停止"
+
+#~ msgid "Input"
+#~ msgstr "输入"
+
+#~ msgid "Try to init Shutter..."
+#~ msgstr "正在初始化快门......"
+
+#~ msgid "Error: Comport error!"
+#~ msgstr "错误： 串口出错！"
+
+#~ msgid "SGamma Acceleration:"
+#~ msgstr "SGamma加速度(mm/ss):"
+
+#~ msgid "Error: Mover not initialized correctly!"
+#~ msgstr "错误：平移台没有正确初始化！"
+
+#~ msgid "Fetal Error!"
+#~ msgstr "严重错误！"

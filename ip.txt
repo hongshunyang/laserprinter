@@ -1,0 +1,29 @@
+
+Windows IP Configuration
+
+        Host Name . . . . . . . . . . . . : 20081123-1114
+        Primary Dns Suffix  . . . . . . . : 
+        Node Type . . . . . . . . . . . . : Unknown
+        IP Routing Enabled. . . . . . . . : No
+        WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter 本地连接:
+
+        Connection-specific DNS Suffix  . : 
+        Description . . . . . . . . . . . : Realtek RTL8139/810x Family Fast Ethernet NIC
+        Physical Address. . . . . . . . . : 00-1D-60-CB-BE-74
+        Dhcp Enabled. . . . . . . . . . . : No
+        IP Address. . . . . . . . . . . . : 192.168.254.100
+        Subnet Mask . . . . . . . . . . . : 255.255.255.0
+        Default Gateway . . . . . . . . . : 
+
+Ethernet adapter 无线网络连接:
+
+        Connection-specific DNS Suffix  . : 
+        Description . . . . . . . . . . . : TP-LINK TL-WN620G/WN620G+ 11G Wireless Adapter
+        Physical Address. . . . . . . . . : 00-19-E0-7C-C7-64
+        Dhcp Enabled. . . . . . . . . . . : Yes
+        Autoconfiguration Enabled . . . . : Yes
+        Autoconfiguration IP Address. . . : 169.254.79.110
+        Subnet Mask . . . . . . . . . . . : 255.255.0.0
+        Default Gateway . . . . . . . . . : 

@@ -1,0 +1,20 @@
+# -*- mode: python -*-
+a = Analysis([os.path.join(HOMEPATH,'support/_mountzlib.py'), os.path.join(HOMEPATH,'support/useUnicode.py'), 'app/laserPrinter.pyw','module/Image_array_creator.py', 'module/Shutter_drivers.py', 'module/Syncer.py', 'module/XPSC8_mover.py', 'lib/xps/XPS_C8_drivers.py', 'lib/xps/__init__.py', 'lib/serial/win32.py', 'lib/serial/sermsdos.py', 'lib/serial/socket_connection.py', 'lib/serial/rfc2217.py', 'lib/serial/serialutil.py', 'lib/serial/__init__.py', 'lib/serial/serialposix.py', 'lib/serial/loopback_connection.py', 'lib/serial/serialwin32.py', 'lib/serial/serialjava.py', 'lib/serial/serialcli.py', 'wx/LicenseManager.py', 'wx/Settings.py', 'wx/prefer.py', 'wx/LPFrame.py', 'wx/misc.py'],
+
+             pathex=['wx', 'lib', 'module', './'])
+pyz = PYZ(a.pure)
+exe = EXE(pyz,
+          a.scripts,
+          exclude_binaries=1,
+          name=os.path.join('build/pyi.linux2/laserPrinter', 'laserPrinter'),
+          debug=False,
+          strip=False,
+          upx=True,
+          console=1 , icon='laserPrinter.ico')
+coll = COLLECT( exe,
+               a.binaries,
+               a.zipfiles,
+               a.datas,
+               strip=False,
+               upx=True,
+               name=os.path.join('dist', 'laserPrinter'))

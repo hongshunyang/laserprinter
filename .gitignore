@@ -86,4 +86,13 @@ ENV/
 .spyderproject
 
 # Rope project settings
+
 .ropeproject
+
+# Copyright
+
+module/Syncer.py
+module/XPSC8_mover.py
+
+
+
