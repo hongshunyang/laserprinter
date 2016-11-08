@@ -1,8 +1,17 @@
 # laserprinter
 
+support windows,linux platform
 
+### Keywords
 
-### Developer:
+* Python 2.x
+* wxPython
+* wxWidgets
+* XPSC8
+* shutter
+* searial
+
+### Developer
 
 * yanghongshun@gmail.com
 * dangbinghoo@gmail.com
